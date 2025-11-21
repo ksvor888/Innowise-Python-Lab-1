@@ -5,6 +5,7 @@ print(f"{Fore.GREEN}Hello World in Green!{Style.RESET_ALL}")
 print(f"{Fore.BLUE}{Style.BRIGHT}Hello World in Bright Blue!{Style.RESET_ALL}")
 print(f"{Fore.MAGENTA}{Back.CYAN}Hello World with Magenta text and Cyan background!{Style.RESET_ALL}")
 
+
 def generate_profile (age):
     if 0<=age<=12:
         return "Child"
